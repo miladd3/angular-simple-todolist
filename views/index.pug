@@ -1,7 +1,7 @@
 doctype html
 html(lang='en')
   head
-    title OLD Angular TODO list
+    title Angular TODO list
   body
     .container(ng-app="todoList" ng-controller="formController as form")
       h1 This is simplest todo list ever!
@@ -14,4 +14,4 @@ html(lang='en')
           span {{ task }}
           button(ng-click="form.delete($index)" class="delete") X
 
-    script(src="../dist/index.bundle.js")
+    script(src="index.bundle.js")
