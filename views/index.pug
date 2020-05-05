@@ -1,0 +1,17 @@
+doctype html
+html(lang='en')
+  head
+    title OLD Angular TODO list
+  body
+    .container(ng-app="todoList" ng-controller="formController as form")
+      h1 This is simplest todo list ever!
+      form(ng-submit="form.submit()" class="main-form")
+        input(type="text" ng-model="form.newTask" placeholder="Enter task")
+        button(type="submit" class="btn") submit
+      
+      .tasks
+        .task(ng-repeat="task in form.tasks track by $index") 
+          span {{ task }}
+          button(ng-click="form.delete($index)" class="delete") X
+
+    script(src="../dist/index.bundle.js")

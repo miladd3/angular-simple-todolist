@@ -1,0 +1,23 @@
+
+
+// Add percentage of white to a color
+@function tint($color, $percent){
+  @return mix(white, $color, $percent);
+}
+
+// Add percentage of black to a color
+@function shade($color, $percent){
+  @return mix(black, $color, $percent);
+}
+
+
+/**
+* space by initial space
+ */
+@function space($f : 1) {
+  @return $spacing * $f;
+}
+
+@function sp($f : 1) {
+  @return $spacing * $f;
+}
