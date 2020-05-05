@@ -1,8 +1,10 @@
 # Angular simple todo list
 
+Just simple angular 1 app
+
 ## install
 
-close the repository and then install dependencies
+First clone the repository and then go to the folder and run
 
 ```
 npm install
@@ -21,3 +23,5 @@ If you want to build for production you can run
 ```
 npm run production
 ```
+
+:-)
