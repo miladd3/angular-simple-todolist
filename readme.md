@@ -10,13 +10,13 @@ First clone the repository and then go to the folder and run
 npm install
 ```
 
-Then you can run development server by running 
+Then you can run development server by running:
 
 ```
 npm run dev
 ```
 
-After that yoy can visit <http://localhost:9000>
+After that you can visit <http://localhost:9000>
 
 If you want to build for production you can run
 
